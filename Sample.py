@@ -1,4 +1,6 @@
-x = 10
-x = "now a string"
-print(x)
-print(x)
+# printing all keywords at once using "kwlist()"
+import keyword
+
+
+print("The list of keywords is : ")
+print(keyword.kwlist)
